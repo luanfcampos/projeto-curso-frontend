@@ -1,0 +1,49 @@
+.bg-imagem{
+    height: 48vw;
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-imagem p{
+    text-shadow: 4px 4px 8px black;
+    font-size: 4vw;
+  }
+  
+  .active{
+    background: #007bff;
+  }
+  
+  .nav-link, dropdowm-item{
+    color: white !important;
+  }
+  
+  .nav-link:hover:not(.active), .dropdowm-item:hover{
+    background: #7952b3;
+    color: white !important;
+  }
+  
+  .mt-60{
+    margin-top: 60px;
+  }
+  
+  footer{
+    height: 50px;
+  }
+  
+  /* estilo agenda */
+  
+  #agenda th{
+    font-size: 1.5vw;
+  }
+  
+  #agenda td{
+    height:100px;
+    width: 14.29%;
+  }
+  
+  #agenda td.bg-info{
+    color: white;
+  }
+  
+  
